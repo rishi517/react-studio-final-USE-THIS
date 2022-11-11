@@ -1,9 +1,64 @@
 /* Add styling for your page here */
 
 .App {
-
+    text-align: center;
+        display: flex;
+    }
+h1{
+    /* style large white title bold color; */
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* dark background white text*/
+    background: #000;
+    color: #fff;
 }
 
+.items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;}
+    
+
+
+        
 .BakeryItem {
-  
+width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    margin: 1px
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    margin: 1px
+}
+
+button {
+    /* style a button */
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
